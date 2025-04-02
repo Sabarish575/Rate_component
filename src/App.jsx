@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router basename="/Rate_component">
+    <Router basename="/Rate_component/">
       <Routes>
         <Route path="/" element={<Rate />} />
         <Route path="/greet" element={<Thankyou />} />
