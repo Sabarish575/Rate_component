@@ -24,3 +24,6 @@ Rate Us is a simple and interactive feedback collection web application built us
 
 ![Image](src/assets/images/image.png)
 ![Image_1](src/assets/images/image1.png)
+
+##Link
+ https://sabarish575.github.io/Rate_component/
