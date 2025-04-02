@@ -22,5 +22,5 @@ Rate Us is a simple and interactive feedback collection web application built us
 
 ## 🎨 Screenshots
 
-![Image](public/assets/images/image.png)
-![Image_1](public/assets/images/image1.png)
+![Image](public/image.png)
+![Image_1](public/image1.png)
