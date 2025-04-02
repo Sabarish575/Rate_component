@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 15px;
+    font-family: "Overpass";
+    background-color: hsl(216, 12%, 8%);
+}
+
+.outer-conts{
+    width: 320px;
+    height: 320px;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img-conts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Result{
+    width: 180px;
+    height: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(214, 19%, 21%);
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+}
+
+.result-cont{
+    text-align: center;
+    width: 340px;
+}
+
+.result-cont h1{
+    color: white;
+    margin-bottom: 15px;
+}
+
+.result-cont p{
+    color: hsl(217, 12%, 63%);
+}
+
+
+
+@media (max-width:375px){
+    .outer-conts{
+        width: 290px;
+        height: 290px;
+        gap: 1.5rem;
+        padding: 25px;
+    }
+
+
+    .img-conts{
+        margin-bottom: 25px;
+    }
+
+    .result-cont{
+        width: 300px;
+    }
+
+}
